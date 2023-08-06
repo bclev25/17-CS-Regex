@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Email Address Validation Regex Tutorial</title>
+    </head>
+    <body>
+
+        <h1>Email Address Validation Regex Tutorial</h1>
+
+        <p>Welcome to this tutorial on regular expressions of regex, the powerful tool for pattern matching and text manipulation.
+            Whether you are a beginner or a experienced developer, understanding regex can enhance your coding skills.
+            In this tutorial we will break down the various components of regex and how the work to create search patterns.</p>
+
+             <h2>Summary</h2>
+
+             <p>In this tutorial we will dive into a comprehensive explanation of a regular expression and its components.
+                The regex we will be exploring is 
+                `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`(email address)
+                We will look at different elements of the regex like,
+                Anchors, Quantifiers, Grouping Constructs, Bracket Expressions, Character Classes,
+                The OR operator, Flags,and Character Escapes.</p>
+
+                <pre>`/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`(email address)</pre>
+
+                <h2>Table of Contents</h2>
+
+                <ul>
+                    <li><a href="#anchors">Anchors</a></li>
+                    <li><a href="#quantifiers">Quantifiers</a></li>
+                    <li><a href="#grouping-constructs">Grouping Constructs</a></li>
+                    <li><a href="#bracket-expressions">Bracket Expressions</a></li>
+                    <li><a href="#character-classes">Character Classes</a></li>
+                    <li><a href="#the-or-operator">The OR operator</a></li>
+                    <li><a href="#flags">Flags</a></li>
+                    <li><a href="#character-escapes">Character Escapes</a></li>
+                    <li><a href="#Conclusion">Conclusion</a></li>
+                    <li><a href="#Author">Author</a></li>
+                </ul>
+
+                <h2>id="anchors">Anchors</h2>
+                <p>At the beginning of the regex we have the '^' symbol and at the end. We also have the $ symbol.
+                    These symbols are called anchors =. They indicate the start and the end of the line.In our regex
+                    they ensure that the email address is matched from start to finish with no extra characters before or after the email.</p>
+                
+                <h2> id="quantifiers">Quantifiers</h2>
+                    <p>Quantifiers allow us to specify how many times a character should appear in the input. 
+                        We will explore quantifiers like '+', '*', '?',and '{}', and how the affect the matching process.</p>
+                
+                <h2> id="grouping-constructs">Grouping constructs</h2>
+                <p>Grouping constructs '( )' allow us to create a sub expressions within our regex. This ables us to 
+                    apply quantifiers or other operations to multiple characters as a single unit.</p>
+
+                <h2> id="bracket-expressions">Bracket Expressions</h2>
+                <p>Bracket expressions '[ ]' define the character set, allowing us to match any one character from one set.</p>
+
+                <h2>id="character-classes">Character Classes</h2>
+                <p>character classes like '\w', '\d', and '\s' represent shorthand for common sets of characters.</p>
+
+                <h2>id="the-or-operator>The OR Operator</h2>
+                <p>The '|' symbol, known as the OR operator allows us to create alternative matching options within our regex.</p>
+
+                <h2>id="flags">Flags</h2>
+                <p>Flags like 'i', and 'g',and 'm' can modify the behavior of our regex</p>
+
+                <h2>id="character-escapes">Character Escapes</h2>
+                <p>Character escapes, denoted by '\', allow us to match special characters as literal characters.</p>
+
+                <h2>id="conclusion">Conclusion</h2>
+                <p>This tutorial was written by Braden Clevenger </p>
+    </body>
+</html>
